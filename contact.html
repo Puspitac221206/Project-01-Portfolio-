@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Puspita Dhar</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-gray-900 shadow-lg z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      
+      <h1 class="text-2xl font-bold text-cyan-400">Puspita Dhar</h1>
+
+      <div class="space-x-6 hidden md:flex">
+        <a href="index.html" class="hover:text-cyan-400">Home</a>
+        <a href="about.html" class="hover:text-cyan-400">About</a>
+        <a href="projects.html" class="hover:text-cyan-400">Projects</a>
+        <a href="contact.html" class="text-cyan-400">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="min-h-screen flex items-center justify-center px-6 pt-28">
+
+    <div class="max-w-6xl w-full grid md:grid-cols-2 gap-10">
+
+      <!-- LEFT SIDE CARD (Updated with Email & Phone) -->
+      <div class="bg-gray-900 border border-gray-800 rounded-3xl p-10 shadow-2xl">
+
+        <h2 class="text-4xl font-bold text-cyan-400 mb-6">
+          Contact Us
+        </h2>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+          Feel free to reach out for collaboration, projects, or any queries.  
+          I am always open to new opportunities and ideas.
+        </p>
+
+        <div class="space-y-4 text-gray-300">
+          <p><span class="text-cyan-400 font-semibold">Name:</span> Puspita Dhar</p>
+          <p><span class="text-cyan-400 font-semibold">Role:</span> CSE Graduate</p>
+          <p><span class="text-cyan-400 font-semibold">University:</span> IIUC</p>
+          
+          <!-- Added Phone Number -->
+          <p>
+            <span class="text-cyan-400 font-semibold">Phone:</span> 
+            <a href="tel:+8801891517914" class="hover:underline hover:text-cyan-300 transition">+8801891517914</a>
+          </p>
+          
+          <!-- Added Email Address -->
+          <p>
+            <span class="text-cyan-400 font-semibold">Email:</span> 
+            <a href="mailto:puspitadhar25@gmail.com" class="hover:underline hover:text-cyan-300 transition">puspitadhar25@gmail.com</a>
+          </p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE FORM -->
+      <div class="bg-gray-900 border border-gray-800 rounded-3xl p-10 shadow-2xl">
+
+        <h2 class="text-3xl font-bold text-center text-cyan-400 mb-8">
+          Send Message
+        </h2>
+
+        <!-- First Name -->
+        <input 
+          type="text"
+          placeholder="First Name"
+          class="w-full mb-4 px-4 py-3 rounded-xl bg-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+        />
+
+        <!-- Last Name -->
+        <input 
+          type="text"
+          placeholder="Last Name"
+          class="w-full mb-4 px-4 py-3 rounded-xl bg-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+        />
+
+        <!-- Email -->
+        <input 
+          type="email"
+          placeholder="Email"
+          class="w-full mb-4 px-4 py-3 rounded-xl bg-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+        />
+
+        <!-- Mobile -->
+        <input 
+          type="tel"
+          placeholder="Mobile Number"
+          class="w-full mb-6 px-4 py-3 rounded-xl bg-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+        />
+
+        <!-- Send Button -->
+        <a 
+          href="mailto:puspitadhar25@gmail.com"
+          class="block text-center bg-cyan-500 hover:bg-cyan-600 transition py-3 rounded-xl font-semibold shadow-lg">
+          Send
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
